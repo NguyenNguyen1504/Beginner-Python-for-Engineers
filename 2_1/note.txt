@@ -1,0 +1,14 @@
+read file, clean input
+-> function:
+read_and_clean(filename):
+    read file using pandas
+    turn dates value to DateTime obj
+    column named case_filename: turn values to numeric type
+
+error handling:
+    if a file cannot be read, stop program, inform user
+    if a file is already submitted, reprompt user to get another file name
+
+main function:
+    read_and_clean some files
+    merge the read dataframes
