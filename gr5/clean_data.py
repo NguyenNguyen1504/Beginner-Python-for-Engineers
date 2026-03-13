@@ -4,8 +4,8 @@ import datetime as dt
 
 
 def main():
-    df_results = pd.read_csv("results.csv")
-    df_bet2122 = pd.read_csv("bet21-22.csv", header = 1)
+    df_results = pd.read_csv("results.csv",encoding="latin1")
+    df_bet2122 = pd.read_csv("bet21-22.csv",encoding="latin1")
     df_bet2122 = df_bet2122.drop(columns = ['Div'])
 
     # Reformat results Date and Time
