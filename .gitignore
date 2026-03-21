@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
 *.py[codz]
 *$py.class
 
@@ -212,8 +213,3 @@ __marimo__/
 
 # macOS system files
 .DS_Store
-
-# Python caches
-__pycache__/
-*.py[cod]
-*$py.class
